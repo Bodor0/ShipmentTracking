@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <TableRow
+        android:id="@+id/row"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/countryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/country_checkpoint"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/countryText_write"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/todo"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/checkpostText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/checkpost_checkpoint" />
+
+            <TextView
+                android:id="@+id/checkpostText_write"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/todo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/status_checkpoint" />
+
+            <TextView
+                android:id="@+id/statusText_write"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/todo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/trackingDateText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/date_checkpoint"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/trackingDateText_write"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/todo"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </TableRow>
+
+</androidx.cardview.widget.CardView>

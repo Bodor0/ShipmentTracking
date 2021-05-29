@@ -1,0 +1,2 @@
+rootProject.name = "Shipment Tracking"
+include ':app'
